@@ -1,0 +1,453 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 10px;
+  line-height: 1.4;
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing:border-box; }
+
+body{
+  background-color: #262626;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; 
+  max-width: 100%;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Hamburger Menu
+   ========================================================================== */
+
+  .hamburger-icon {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 40px;
+    height: 50px;
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    padding-top:22px;
+  }
+  .hamburger-icon > .line {
+    display: block;
+    background: #fafafa;
+    width: 40px;
+    height: 4px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+  }
+  .hamburger-icon > .line:nth-child(1) {
+    margin-bottom: 8px;
+  }
+  .hamburger-icon > .line:nth-child(3) {
+    margin-top: 8px;
+  }
+  .hamburger-icon:hover .line:nth-child(1), .hamburger-icon:focus .line:nth-child(1) {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+  }
+  .hamburger-icon:hover .line:nth-child(3), .hamburger-icon:focus .line:nth-child(3) {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+  }
+  .hamburger-icon:active .line:nth-child(1) {
+    transform: translateY(13px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(13px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(13px) translateX(0) rotate(45deg);
+  }
+  .hamburger-icon:active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-icon:active .line:nth-child(3) {
+    transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-12px) translateX(0) rotate(-45deg);
+  }
+  .hamburger-icon.active .line:nth-child(1) {
+    transform: translateY(12px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(12px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(12px) translateX(0) rotate(45deg);
+  }
+  .hamburger-icon.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-icon.active .line:nth-child(3) {
+    transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-12px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-12px) translateX(0) rotate(-45deg);
+  }
+
+
+/* ==========================================================================
+   CUSTOM CSS
+   ========================================================================== */
+
+/* Navigation */
+
+header{
+  position: fixed;
+  background: black;
+  left:0;
+  top:0;
+  height: 100%;
+  overflow-y:scroll;
+  width:200px;
+  color:white;
+}
+header img{
+  padding:25px;
+}
+header li{
+  list-style-type: none;
+}
+header li a{
+  color:white;
+  text-transform: uppercase;
+  margin:15px 0;
+  display: block;
+}
+header li a:hover{
+  color:white;
+}
+header #bfyNav{
+  margin-bottom:30px;
+}
+header #social-icons img{
+  width:30px;
+  padding:0;
+  margin-bottom:10px;
+}
+.side-nav-menu{
+  display: none;
+  position: absolute;
+}
+.side-menu-nav.active{
+  display:block;
+}
+.side-menu-nav svg rect{
+  fill:white;
+}
+.mobile-logo{
+  display:none;
+  height: 100%;
+  padding: 10px;
+  float:left;
+}
+#home{
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:200px;
+  background: url(../img/OLR_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our-team .bio{
+  width:100%;
+  height:200px;
+  padding:30px 0;
+}
+.our-team .bio:nth-child(odd){
+  background-color: #262626;
+}
+.our-team .bio:nth-child(even){
+  background-color: #2E2E2E;
+}
+.our-team .row{
+  margin-left:200px;
+}
+.our-team img{
+ 
+}
+.our-team h2{
+  color:white;
+  margin-top:0px;
+  font-size:18px;
+}
+.our-team p{
+  color:white;
+  margin-top:20px;
+}
+.about-us{
+  margin-left:200px;
+  background-color: #262626;
+}
+.about-us .row{
+  margin-left:200px;
+}
+.about-us p{
+  color:white;
+  margin-bottom: 30px;
+}
+.about-us h1{
+  color:white;
+  margin-top: 100px;
+}
+.about-us .mission-statement{
+  display: flex;
+  align-items:flex-start;
+  padding-left:25px;
+}
+.about-us .mission-statement div:nth-child(1){
+  width:60%;
+}
+.about-us .mission-statement img{
+  position: relative;
+  top: 60px;
+}
+.about-us .testimonial{
+  display:block;
+  padding:30px;
+  border:1px solid white;
+  font-size: 22px;
+  font-style: italic;
+}
+.about-us .our-certs{
+  padding: 10px 20px 10px 0;
+  border-right: 1px solid white;
+  font-size: 22px;
+  margin: 0 20px 0 0;
+}
+.about-us .certifications{
+  display: flex;
+  align-items:center;
+  padding:100px 0 100px 25px;
+  background-color: #313131;
+}
+.about-us .certifications img{
+  width:69%;
+}
+.careers{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 200px;
+  background-repeat: no-repeat;
+  height: 100%;
+  background:url(../img/careers-background.jpg);
+  background-size: cover;
+}
+.careers div{
+  padding: 25px;
+  background: rgba(0,0,0,0.8);
+  width:50%;
+  margin-top:75px;
+  border-radius: 5px;
+  margin-left:25px;
+}
+.careers p{
+  color:white;
+  margin-bottom: 30px;
+}
+.careers img{
+  float: left;
+  width: 80%;
+  padding: 0px 20px;
+}
+.careers a{
+  color: white;
+  text-decoration: none;
+  background-color: #337ab7;
+  padding: 12px;
+  border-radius: 5px;
+}
+.careers h1{
+  color:white;
+}
+.our-brands{
+  margin-left:200px;
+}
+.our-brands img{
+  width:100%;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+@media (max-width: 991px) {
+  header{
+    position: fixed;
+    z-index:2;
+    top:0;
+    left:0;
+    right:0;
+    height:75px;
+    width:100%;
+    overflow: initial;
+  }
+  header nav{
+    position: absolute;
+    right:-100%;
+    transition:all 700ms;
+    background: black;
+    width:250px;
+    top:75px;
+    text-align: right;
+    padding-right:25px;
+  }
+  header nav.open{
+    right:0;
+  }
+  header nav .logo{
+    display:none;
+  }
+  .hamburger-icon  {
+    display: block;
+    margin:0 20px 0 auto;
+  }
+  #home{
+    left:0;
+    margin-top:75px;
+  }
+  .mobile-logo{
+    display:inline;
+  }
+  .about-us{
+    margin-left: 0;
+    margin-top: 75px;
+  }
+  .about-us .row{
+    margin-left:inherit;
+  }
+  .our-team{
+    margin-top:75px;
+  }
+  .our-team .bio{
+    height:auto;
+  }
+  .our-team .row{
+    margin-left:inherit;
+  }
+  .our-team img{
+    width:100px;
+    margin-bottom:20px;
+  }
+  .careers{
+    left:0px;
+    margin-top:75px;
+    padding:25px;
+  }
+  .careers h1{
+    margin-top: 0px;
+  }
+  .careers div{
+    width:100%;
+    margin:0;
+  }
+  .our-brands{
+    margin-top:75px;
+    margin-left:0;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-us .mission-statement div:nth-child(1) {
+    width: 100%;
+  }
+  .about-us .mission-statement{
+    padding-right:25px;
+  }
+  .about-us .mission-statement img{
+    display:none;
+  }
+  .about-us .certifications{
+    padding: 50px 25px 50px 10px;
+    flex-direction: column;
+  }
+  .about-us .our-certs{
+    font-size: 16px;
+    border:0px;
+  }
+  .about-us .our-certs br{
+    display:none;
+  }
+  .about-us h1{
+    margin-top:20px;
+  }
+  .our-team{
+    text-align: center;
+  }
+}
