@@ -32,7 +32,6 @@
 			<div id="bfyNav">
 				<ul class="">
 					<li><a href="/">Home</a></li>
-					<li><a href="our-brands">Our Brands</a></li>
 					<li><a href="about-us">About Us</a></li>
 					<li><a href="our-team">Our Team</a></li>
 					<li><a href="careers">Careers</a></li>
