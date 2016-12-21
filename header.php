@@ -38,15 +38,6 @@
 					<li><a href="careers">Careers</a></li>
   			</ul>
 			</div>
-			<div id="social-icons">
-				<ul>
-					<li><img src="img/icon_followus.jpg"></li>
-					<li>Follow Us</li>
-					<li><a href="https://www.facebook.com/ourlittlerebellion" target="_blank"><img src="img/icon_facebook.jpg"></a></li>
-					<li><a href="https://www.instagram.com/popcorners/" target="_blank"><img src="img/icon_instagram.jpg"></a></li>
-					<li><a href="https://twitter.com/olrebellion" target="_blank"><img src="img/icon_twitter.jpg"></a></li>
-				</ul>
-			</div>
 		</nav>
 	</header>
 	<div class="side-nav-menu active">
