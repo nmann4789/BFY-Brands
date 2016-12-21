@@ -38,6 +38,14 @@
 					<li><a href="careers">Careers</a></li>
   			</ul>
 			</div>
+			<div id="social-icons">
+				<ul>
+					<li>BFY Brands</li>
+					<li>89 Mill Street</li>
+					<li>Liberty, NY 12754</li>
+					<li>+1 (877) xxx-BFY1</li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<div class="side-nav-menu active">
