@@ -1,21 +1,28 @@
 <section class="our-brands" id="our-brands">
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<p>Test 1</p>
+			<img src="img/fairbanks-logo.png">
+			<h2>Proud makers of of PopCorners—Crispy and Crunch Pop Chips.</h2>
+			<p>At Fairbanks, we produce on over a dozen lines in a GFSI-certified 300,000 square foot facility in Liberty, NY. We use only our own patented and proprietary popping equipment! Popping, seasoning, packaging, and food safety are the cornerstones on which we base our exceptional snack making abilities upon.</p>
 		</div>
+		<img src="img/3.jpg" alt="Fairbanks">
+	</div>
+	<div class="brand-slide">
+		<div class="brand-desc">
+			<img src="img/idealsnacks.png">
+			<h2>High quality manufacturing—it’s kind of our thing.</h2>
+			<p>As a world leader in development and commercialization of high quality, great tasting, better-for-you snacks, we truly believe in a commitment to providing superior options by combining meaningful differentiation and innovative thinking. We accommodate a complete on-site Innovation Center and have redefined what it means to create and innovate in the snack game.</p>
+		
+			</div>
 		<img src="img/1.jpg" alt="Ideal Snacks">
 	</div>
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<p>Test 1</p>
+			<img src="img/popcorners.png">
+			<h2>Pioneering better-for-you (and your taste buds) snacking.</h2>
+			<p>Join the snack revolution! We use corn from Non-GMO farms and simple ingredients that are easy to pronounce. No gluten or trans fat, just a better taste, and an even better snack.</p>
 		</div>
 		<img src="img/2.jpg" alt="Popcorners Chips">
-	</div>
-	<div class="brand-slide">
-		<div class="brand-desc">
-			<p>Test 3</p>
-		</div>
-		<img src="img/3.jpg" alt="Fairbanks">
 	</div>
 </section>
 <section class="about-us" id="about-us">

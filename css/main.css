@@ -332,14 +332,18 @@ header #social-icons li{
 }
 .our-brands .brand-slide{
   position: relative;
+  display: flex;
+  align-items:center;
 }
 .our-brands .brand-desc{
   position: absolute;
-  top:20%;
   padding: 25px;
   left:50px;
-  width:30%;
+  width:40%;
   border-radius: 5px;
+}
+.our-brands .brand-desc img{
+  max-width: 250px;
 }
 
 /* ==========================================================================
