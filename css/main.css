@@ -15,9 +15,6 @@ html {
   max-width: 100%;
   box-sizing:border-box; }
 
-body{
-  background-color: #262626;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -192,10 +189,8 @@ header li a:hover{
 header #bfyNav{
   margin-bottom:30px;
 }
-header #social-icons img{
-  width:30px;
-  padding:0;
-  margin-bottom:10px;
+header #social-icons li{
+  margin-bottom:5px;
 }
 .side-nav-menu{
   display: none;
@@ -298,13 +293,9 @@ header #social-icons img{
   width:69%;
 }
 .careers{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 200px;
+  margin-left: 200px;
+  padding:50px;
   background-repeat: no-repeat;
-  height: 100%;
   background:url(../img/careers-background.jpg);
   background-size: cover;
 }
@@ -312,9 +303,7 @@ header #social-icons img{
   padding: 25px;
   background: rgba(0,0,0,0.8);
   width:50%;
-  margin-top:75px;
   border-radius: 5px;
-  margin-left:25px;
 }
 .careers p{
   color:white;
@@ -340,6 +329,17 @@ header #social-icons img{
 }
 .our-brands img{
   width:100%;
+}
+.our-brands .brand-slide{
+  position: relative;
+}
+.our-brands .brand-desc{
+  position: absolute;
+  top:20%;
+  padding: 25px;
+  left:50px;
+  width:30%;
+  border-radius: 5px;
 }
 
 /* ==========================================================================
@@ -386,13 +386,9 @@ header #social-icons img{
   }
   .about-us{
     margin-left: 0;
-    margin-top: 75px;
   }
   .about-us .row{
     margin-left:inherit;
-  }
-  .our-team{
-    margin-top:75px;
   }
   .our-team .bio{
     height:auto;
@@ -406,7 +402,7 @@ header #social-icons img{
   }
   .careers{
     left:0px;
-    margin-top:75px;
+    margin:0;
     padding:25px;
   }
   .careers h1{

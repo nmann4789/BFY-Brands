@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">   
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
 		<link rel="stylesheet" href="css/main.css">
  </head>
   <body>
@@ -31,18 +33,18 @@
 			</div>
 			<div id="bfyNav">
 				<ul class="">
-					<li><a href="/">Home</a></li>
-					<li><a href="about-us">About Us</a></li>
-					<li><a href="our-team">Our Team</a></li>
-					<li><a href="careers">Careers</a></li>
+					<li><a href="#our-brands">Home</a></li>
+					<li><a href="#about-us">About Us</a></li>
+					<li><a href="#our-team">Our Team</a></li>
+					<li><a href="#careers">Careers</a></li>
   			</ul>
 			</div>
 			<div id="social-icons">
 				<ul>
 					<li>BFY Brands</li>
-					<li>89 Mill Street</li>
-					<li>Liberty, NY 12754</li>
-					<li>+1 (877) xxx-BFY1</li>
+					<li>161 Worcester Rd</li>
+					<li>#204</li>
+					<li>Framingham, MA 01701</li>
 				</ul>
 			</div>
 		</nav>
