@@ -174,11 +174,15 @@ header{
 header img{
   padding:25px;
 }
+header ul{
+  padding-left:25px;
+}
 header li{
   list-style-type: none;
 }
 header li a{
   color:white;
+  font-weight:bold;
   text-transform: uppercase;
   margin:15px 0;
   display: block;
@@ -189,8 +193,14 @@ header li a:hover{
 header #bfyNav{
   margin-bottom:30px;
 }
+header #social-icons ul{
+  margin: 0 25px;
+  border-top: 1px solid white;
+  padding: 25px 0;
+}
 header #social-icons li{
   margin-bottom:5px;
+  font-size:12px;
 }
 .side-nav-menu{
   display: none;
@@ -327,6 +337,12 @@ header #social-icons li{
 .our-brands{
   margin-left:200px;
 }
+.our-brands h2{
+  font-weight:bold;
+}
+.our-brands p{
+  font-size:16px;
+}
 .our-brands img{
   width:100%;
 }
@@ -343,7 +359,7 @@ header #social-icons li{
   border-radius: 5px;
 }
 .our-brands .brand-desc img{
-  max-width: 250px;
+  max-width: 350px;
 }
 
 /* ==========================================================================

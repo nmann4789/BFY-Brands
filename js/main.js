@@ -5,6 +5,7 @@ $(document).ready(function(){
 	});
 	$('#our-brands').slick({
 		arrows:false,
+		fade:true,
 		autoplay:true
 	});
 	$('#bfyNav a').on('click', function(){
