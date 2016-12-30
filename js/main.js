@@ -19,4 +19,25 @@ $(document).ready(function(){
 		  scrollTop: scroll
 		});
 	});
+	var pro_header = document.querySelectorAll(".fill-banner");
+	 var speed = 0.2;
+	 window.onscroll = function(){
+	    [].slice.call(pro_header).forEach(function(el,i){
+	    var windowYOffset = window.pageYOffset,
+	        elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
+	    el.style.backgroundPosition = elBackgrounPos;
+	    });
+	};
+	$(document).scroll(function(){
+    var scrolled = $(this).scrollTop();
+    var hWindow = $(window).height();
+    var hCurrentCenter = scrolled+(hWindow*0.75);
+    $('.about-us .mission-statement img:not(.started)').each(function(index, el){
+      if(hCurrentCenter>$(el).offset().top){
+        if(!$(el).hasClass('started')){
+          $(el).addClass('started');
+        }
+      }
+    });
+  });
 });
