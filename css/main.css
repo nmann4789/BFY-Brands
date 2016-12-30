@@ -383,6 +383,7 @@ header #social-icons li{
 .fill-banner{
   background: url(../img/chocDrizzle.jpg);
   height: 300px;
+  box-shadow: inset 10px 0px 22px #000;
 }
 
 /* ==========================================================================
