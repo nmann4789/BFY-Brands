@@ -20,9 +20,17 @@ $(document).ready(function(){
 		});
 	});
 	var pro_header = document.querySelectorAll(".fill-banner");
-	 var speed = 0.2;
-	 window.onscroll = function(){
+	var career_bac = document.querySelectorAll("#careers");
+	var speed = 0.2;
+	window.onscroll = function(){
+
 	    [].slice.call(pro_header).forEach(function(el,i){
+	    var windowYOffset = window.pageYOffset,
+	        elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
+	    el.style.backgroundPosition = elBackgrounPos;
+	    });
+
+	    [].slice.call(career_bac).forEach(function(el,i){
 	    var windowYOffset = window.pageYOffset,
 	        elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 	    el.style.backgroundPosition = elBackgrounPos;
