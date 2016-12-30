@@ -319,11 +319,14 @@ header #social-icons li{
 .careers div{
   padding: 25px;
   background: rgba(0,0,0,0.8);
-  width:50%;
+  width:55%;
   border-radius: 5px;
 }
 .careers p{
   color:white;
+  margin-bottom: 20px;
+}
+.careers p:nth-child(5){
   margin-bottom: 30px;
 }
 .careers img{
@@ -340,6 +343,8 @@ header #social-icons li{
 }
 .careers h1{
   color:white;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .our-brands{
   margin-left:200px;
