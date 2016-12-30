@@ -468,6 +468,9 @@ header #social-icons li{
   .footer-address{
     margin:0;
   }
+  .fill-banner{
+    height:200px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -496,5 +499,21 @@ header #social-icons li{
   }
   .our-team{
     text-align: center;
+  }
+  .our-brands h2{
+    font-size: 22px;
+  }
+  .our-brands p{
+    font-size: 12px;
+  }
+  .our-brands .brand-desc{
+    left:25px;
+    width:80%;
+  }
+  .our-brands .brand-desc img{
+    max-width: 150px;
+  }
+  .fill-banner{
+    background-size: cover;
   }
 }

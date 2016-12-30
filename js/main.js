@@ -23,8 +23,8 @@ $(document).ready(function(){
 	var career_bac = document.querySelectorAll("#careers");
 	var speed = 0.2;
 	window.onscroll = function(){
-
-	    [].slice.call(pro_header).forEach(function(el,i){
+		if(window.innerWidth>640){
+			[].slice.call(pro_header).forEach(function(el,i){
 	    var windowYOffset = window.pageYOffset,
 	        elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 	    el.style.backgroundPosition = elBackgrounPos;
@@ -35,6 +35,7 @@ $(document).ready(function(){
 	        elBackgrounPos = "0% " + (windowYOffset * speed) + "px";
 	    el.style.backgroundPosition = elBackgrounPos;
 	    });
+		}  
 	};
 	$(document).scroll(function(){
     var scrolled = $(this).scrollTop();
