@@ -18,7 +18,7 @@
 	</div>
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<img src="img/popcorners.png" alt="popcorners logo">
+			<img class="img-border" src="img/popcorners.png" alt="popcorners logo">
 			<h2>Pioneering Better-for-You snacking.</h2>
 			<p>Join the snack revolution! We use corn from Non-GMO farms and simple ingredients that are easy to pronounce. No gluten or trans fat, just a better taste, and an even better snack.</p>
 		</div>
