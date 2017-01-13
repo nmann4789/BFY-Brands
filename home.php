@@ -2,7 +2,7 @@
 	<div class="brand-slide">
 		<div class="brand-desc">
 			<img src="img/fairbanks-logo.png">
-			<h2>Proud makers of of PopCorners—Crispy and Crunch Pop Chips.</h2>
+			<h2>Proud Makers of PopCorners</h2>
 			<p>At Fairbanks, we produce on over a dozen lines in a GFSI-certified 300,000 square foot facility in Liberty, NY. We use only our own patented and proprietary popping equipment! Popping, seasoning, packaging, and food safety are the cornerstones on which we base our exceptional snack making abilities upon.</p>
 		</div>
 		<img src="img/3.jpg" alt="Fairbanks">
@@ -10,7 +10,8 @@
 	<div class="brand-slide">
 		<div class="brand-desc">
 			<img src="img/idealsnacks.png">
-			<h2>High quality manufacturing—it’s kind of our thing.</h2>
+			<h2> High Quality Manufacturing 
+should have the same box/outline treatment on the logo as Fairbanks</h2>
 			<p>As a world leader in development and commercialization of high quality, great tasting, better-for-you snacks, we truly believe in a commitment to providing superior options by combining meaningful differentiation and innovative thinking. We accommodate a complete on-site Innovation Center and have redefined what it means to create and innovate in the snack game.</p>
 		
 			</div>
@@ -112,6 +113,6 @@
 </section>
 <footer>
 	<div class="footer-address">
-		<p>161 Worcester Road #204, Framingham, MA 01701</p>
+		<p>BFY Brands, Inc., 161 Worcester Rd. #204, Framingham, MA 01701</p>
 	</div>
 </footer>

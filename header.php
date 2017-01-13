@@ -42,8 +42,7 @@
 			<div id="social-icons">
 				<ul>
 					<li>BFY Brands</li>
-					<li>161 Worcester Rd</li>
-					<li>#204</li>
+					<li>161 Worcester Rd #204</li>
 					<li>Framingham, MA 01701</li>
 				</ul>
 			</div>
