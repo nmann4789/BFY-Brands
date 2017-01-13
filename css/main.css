@@ -228,6 +228,10 @@ header #social-icons li{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.our-brands img.img-border{
+  border:3px solid black;
+  padding:15px;
+}
 .our-team .bio{
   width:100%;
   padding:30px 0;
@@ -358,6 +362,7 @@ header #social-icons li{
 .our-brands img{
   width:100%;
 }
+
 .our-brands .brand-slide{
   position: relative;
   display: flex;

@@ -1,17 +1,16 @@
 <section class="our-brands" id="our-brands">
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<img src="img/fairbanks-logo.png">
-			<h2>Proud Makers of PopCorners</h2>
+			<img class="img-border" src="img/fairbanks-logo.png" alt="Fairbanks MFG logo">
+			<h2>Proud makers of PopCorners</h2>
 			<p>At Fairbanks, we produce on over a dozen lines in a GFSI-certified 300,000 square foot facility in Liberty, NY. We use only our own patented and proprietary popping equipment! Popping, seasoning, packaging, and food safety are the cornerstones on which we base our exceptional snack making abilities upon.</p>
 		</div>
 		<img src="img/3.jpg" alt="Fairbanks">
 	</div>
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<img src="img/idealsnacks.png">
-			<h2> High Quality Manufacturing 
-should have the same box/outline treatment on the logo as Fairbanks</h2>
+			<img class="img-border" src="img/idealsnacks.png" alt="IdealSnacks logo">
+			<h2>High Quality Manufacturing</h2>
 			<p>As a world leader in development and commercialization of high quality, great tasting, better-for-you snacks, we truly believe in a commitment to providing superior options by combining meaningful differentiation and innovative thinking. We accommodate a complete on-site Innovation Center and have redefined what it means to create and innovate in the snack game.</p>
 		
 			</div>
@@ -19,8 +18,8 @@ should have the same box/outline treatment on the logo as Fairbanks</h2>
 	</div>
 	<div class="brand-slide">
 		<div class="brand-desc">
-			<img src="img/popcorners.png">
-			<h2>Pioneering better-for-you (and your taste buds) snacking.</h2>
+			<img src="img/popcorners.png" alt="popcorners logo">
+			<h2>Pioneering Better-for-You snacking.</h2>
 			<p>Join the snack revolution! We use corn from Non-GMO farms and simple ingredients that are easy to pronounce. No gluten or trans fat, just a better taste, and an even better snack.</p>
 		</div>
 		<img src="img/2.jpg" alt="Popcorners Chips">
@@ -96,6 +95,18 @@ should have the same box/outline treatment on the logo as Fairbanks</h2>
 				<div class="col-sm-10">
 					<h2>Jesse Shultis - <span class="title">Vice President of Operations</span></h2>
 					<p>Jesse has over 14 years of manufacturing experience in the light snack category, overseeing the growth of the company from 12MM lbs capacity to 70MM lbs at our Contract Marketing site in Liberty, New York, as well as overseeing the growth of our branded business up to 30MM lbs of capacity. Jesse's background in the culinary industry has helped him to best support and oversee our R&D department. He has led development of many “Better For You” snacks in the market today. Jesse has extensive experience in management roles in multiple commercial food settings as well.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bio">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="img/bio_scott.jpg" alt="Paul">
+				</div>
+				<div class="col-sm-10">
+					<h2>Scott - <span class="title"></span></h2>
 				</div>
 			</div>
 		</div>
