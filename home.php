@@ -2,7 +2,7 @@
 	<div class="brand-slide">
 		<div class="brand-desc">
 			<img class="img-border" src="img/fairbanks-logo.png" alt="Fairbanks MFG logo">
-			<h2>Proud makers of PopCorners</h2>
+			<h2>Proud Makers of PopCorners</h2>
 			<p>At Fairbanks, we produce on over a dozen lines in a GFSI-certified 300,000 square foot facility in Liberty, NY. We use only our own patented and proprietary popping equipment! Popping, seasoning, packaging, and food safety are the cornerstones on which we base our exceptional snack making abilities upon.</p>
 		</div>
 		<img src="img/3.jpg" class="slide-bg" alt="Fairbanks">
@@ -19,7 +19,7 @@
 	<div class="brand-slide">
 		<div class="brand-desc">
 			<img class="img-border" src="img/popcorners.png" alt="popcorners logo">
-			<h2>Pioneering Better-for-You snacking.</h2>
+			<h2>Pioneering Better-for-You Snacking</h2>
 			<p>Join the snack revolution! We use corn from Non-GMO farms and simple ingredients that are easy to pronounce. No gluten or trans fat, just a better taste, and an even better snack.</p>
 		</div>
 		<img src="img/2.jpg" class="slide-bg" alt="Popcorners Chips">
