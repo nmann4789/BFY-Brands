@@ -232,6 +232,9 @@ header #social-icons li{
   border:3px solid black;
   padding:15px;
 }
+.our-brands .slide-bg{
+  min-height:320px;
+}
 .our-team .bio{
   width:100%;
   padding:30px 0;
@@ -472,6 +475,7 @@ header #social-icons li{
   }
   .footer-address{
     margin:0;
+    text-align: center;
   }
   .fill-banner{
     height:200px;
@@ -516,9 +520,13 @@ header #social-icons li{
   .our-brands .brand-desc{
     left:25px;
     width:80%;
+    padding:25px 0;
   }
   .our-brands .brand-desc img{
     max-width: 150px;
+  }
+  .our-brands img.img-border{
+    padding:0;
   }
   .fill-banner{
     background-size: cover;
